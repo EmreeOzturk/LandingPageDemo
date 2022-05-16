@@ -1,12 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Landing Page Demo</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     
+    <link href="/css/lightbox.css" rel="stylesheet" />
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <a href="#" class="logo">
+                    <img src="/img/logo1.png" alt="logo" height="100%">
+                    <span class="logo-yazisi">developer&nbsp;Emre</span>
+                </a>
+                <nav class="menu" id="menu">
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#services">SERVİCES</a></li>
+                        <li><a href="#works">WORKS</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <section id="mainContent" class="text-center">
+        <div class="container">
+            <div class="mainArea">
+                <h1>developer&nbsp;Emre</h1>
+                <h2>A landing page demo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, assumenda officiis iusto modi
+                    velit voluptatem voluptatum rerum illo nisi quam tenetur provident, <br> quisquam in alias odit eos
+                    esse. Nesciunt dolore voluptate et perspiciatis neque, voluptatum eum quod dolorem quisquam hic?</p>
+                <button type="button" class="btn btn-success">Click</button>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="servicesTop">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur rerum corporis esse
+                    eveniet? Ut inventore facere nemo, modi <br> obcaecati delectus, optio similique dolores cum illum
+                    adipisci consectetur recusandae repellat!</p>
+            </div>
+            <div class="servicesContent">
+                <div class="row">
+                    <div class="col-md-4 wow animate__fadeInLeft" data-wow-duration="0.5s"">
+                        <img src="/img/monitor.png" alt="" height="128px">
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sapiente earum veritatis
+                            .</p>
+                    </div>
+                    <div class="col-md-4 wow animate__fadeInLeft" data-wow-duration="0.5s"">
+                        <img src="/img/database-storage.png " alt="" height="128px">
+                        <h3>Server Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sapiente earum veritatis
+                            .</p>
+                    </div>
+                    <div class="col-md-4 wow animate__fadeInLeft" data-wow-duration="0.5s"">
+                        <img src="/img/social-media.png" alt="" height="128px">
+                        <h3>Advertising Services</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sapiente earum veritatis
+                            .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WORKS -->
+    <section id="works" class="text-center">
+        <div class="container">
+            <div class="worksTop">
+                <h2>WORKS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur rerum corporis esse
+                    eveniet? Ut , modi <br> obcaecati delectus, optio similique dolores cum illum
+                    adipisci repellat!</p>
+            </div>
+            <div class="worksContent">
+                <div class="row"></div>
+                <div class="col-md-3">
+                    <a href="/img/w1.jpg" data-lightbox="image-1" data-title="">
+                    <img src="/img/w1.jpg" alt="work1" width="100%">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="/img/w2.jpg" data-lightbox="image-1" data-title=""><img src="/img/w2.jpg" alt="work2" width="100%"></a>
+                    
+                </div>
+                <div class="col-md-3">
+                    <a href="/img/w3.jpg" data-lightbox="image-1" data-title=""><img src="/img/w3.jpg" alt="work3" width="100%"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="/img/w4.jpg" data-lightbox="image-1" data-title=""><img src="/img/w4.jpg" alt="work4" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTER -->
+    <section id="counter" class="text-center">
+        <div class="container">
+            <div class="row wow animate__fadeInLeft" data-wow-duration="0.5s" >
+                <div class="col-md-4">
+                    <img src="/img/clock.gif" alt="clock gif" width="50%">
+                    <p>5000 HOURS OF WORK</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/connection.gif" alt="connection gif" width="50%">
+                    <p>300 CLIENTS</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/complete.gif" alt="complete gif" width="50%">
+                    <p>200 PROJECTS DELIVERED</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- TEAM -->
+    <section id="team" class="text-center">
+        <div class="container">
+            <div class="teamTop">
+                <h2>TEAM</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consectetur rerum corporis esse
+                    eveniet? Ut inventore facere nemo, modi <br> obcaecati delectus, optio similique dolores cum illum
+                    adipisci consectetur recusandae repellat!</p>
+            </div>
+            <div class="teamContent">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/img/p1.png" alt="" height="200px">
+                        <h3>Emre Ozturk</h3>
+                        <p>Fullstack Developer</p>
+                        <img class="twitter" src="/img/twitter.png" alt="Emre" width="30px">
+                        <img src="/img/linkedin.png" alt="" width="30px">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/p2.png" alt="" height="200px">
+                        <h3>Tarik Soy</h3>
+                        <p>Customer Director</p>
+                        <img class="twitter" src="/img/twitter.png" alt="Tarik" width="30px">
+                        <img src="/img/linkedin.png" alt="" width="30px">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/p3.png" alt="" height="200px">
+                        <h3>Niyazi Seckin </h3>
+                        <p>Travel Director</p>
+                        <img class="twitter" src="/img/twitter.png" alt="Niyazi" width="30px">
+                        <img src="/img/linkedin.png" alt="" width="30px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PARTNERS -->
+    <section id="partners" class="text-center">
+        <div class="container">
+            <h2>PARTNERS</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="/img/wp.png" alt="" height="150px">
+                </div>
+                <div class="col-md-3 insta">
+                    <img src="/img/insta.png" alt="instagram">
+                </div>
+                <div class="col-md-3 reddit">
+                    <img src="/img/reddit.png" alt="reddit">
+                </div>
+                <div class="col-md-3 patreon">
+                    <img src="/img/patreon.png" alt="patreon">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="">
+        <div class="container">
+            <div class="contactTop text-center">
+                <h2>CONTACT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aperiam ipsam <br> provident
+                    omnis aliquid odit inventore suscipit commodi eum nihil.</p>
+            </div>
+            <div class="contactContent">
+                <div class="col-md-6">
+                    <form action="">
+                        <fieldset>
+                            <input type="text" id="name" placeholder="Name">
+                        </fieldset>
+                        <fieldset>
+                            <input type="email" id="email" placeholder="Email">
+                        </fieldset>
+                        <fieldset>
+                            <textarea name="messsage" placeholder="messsage" id="messsage" cols="30"
+                                rows="5"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <input type="submit" id="submit" value="SEND">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>Our Address</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque praesentium architecto aperiam
+                        ipsa fugiat in.</p>
+                    <h3>Call Us</h3>
+                    <p>+90 555 444 22 11</p>
+                    <h3>Our Email</h3>
+                    <p>emreeozturk42@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="/js/lightbox.js"></script>
+
+    <script>
+
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+    </script>
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>

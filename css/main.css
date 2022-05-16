@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+    
+}
+header nav ul li a{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease-in;
+}
+header nav ul li a:hover{
+    color: #c61f27;
+    text-decoration: none;
+}
+header nav ul li a:focus{
+    color: #c61f27;
+    text-decoration: none;
+}
+
+header a.logo{
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    
+}
+.logo-yazisi{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-weight: 500;
+    margin-left: 7px;
+}
+header nav{
+    float: right;   
+}
+.mainArea h1{
+    color: #0B317A;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.mainArea h2{
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.mainArea p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+#mainContent{
+    background-image: url(/img/bg4.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+.mainArea{
+    margin-top: 180px;
+}
+.mainArea .btn-success{
+    background-color: #0B317A;
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.mainArea .btn-success:hover{
+    background-color: #c61f27;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+
+}
+#services{
+    background-color: #efefef;
+}
+.servicesTop h2{
+    color: #0B317A;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.servicesTop p, .servicesContent p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.col-md-4 h3{
+    color: #0B317A;
+    font-weight: bold;
+    font-size: 25px;
+}
+#works{
+    color: white;
+    background-image: url(/img/works4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    /* background-attachment: fixed; */
+    padding-bottom: 50px;
+    /* height: 500px; */
+}
+#works h2{
+    color: #0B317A;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#works p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.worksContent .col-md-3{
+    padding: 0;
+}
+#counter{
+    padding: 20px 0px;
+
+} 
+#counter p{
+    color:#0B317A;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#team{
+    background-image: url(/img/bg6.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+#team h2, #partners h2 , #contact h2{
+    color: #0B317A;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.teamTop p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.teamContent p{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+#team h3 , #contact h3{
+    color: #0B317A;
+    font-size: 30px;
+    font-weight: 600;
+}
+.twitter{
+    margin-right: 15px;
+}
+#partners{
+    background-color: #efefef;
+    padding: 30px 0px;
+}
+#partners img{
+    width: 100%;
+}
+.insta{
+    line-height: 150px;
+}
+.reddit{
+    line-height: 150px;
+}
+.patreon{
+    line-height: 170px;
+}
+#contact{
+    background-image: url(/img/contact.jpg);
+    height: 500px;
+}
+#submit{
+    background-color: #efefef;
+    width: 80%;
+    margin: 5px;
+    border: none;
+    color: #0B317A;
+    padding: 5px;
+}
+#contact form{
+    margin-top: 30px;
+}
+#contact #name , #email , textarea{
+    padding: 5px;
+    width: 80%;
+    margin: 5px;
+    background-color: #0B317A;
+    border: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#contact p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 17 px;
+}
+
+
+
+
+
+
+
+
